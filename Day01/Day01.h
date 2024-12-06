@@ -8,6 +8,8 @@ using namespace std;
 class Day01
 {
 public:
+	int Main();
+
 	int GetTotalDistance(const vector<int>& vecLeft, const vector<int>& vecRight);
 
 	int GetTotalSimilarity(const vector<int>& vecLeft, const vector<int>& vecRight);

@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day01\Day01.h" />
+    <ClInclude Include="Day02\Day02.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day01\Day01.cpp" />
+    <ClCompile Include="Day02\Day02.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

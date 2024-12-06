@@ -11,7 +11,7 @@
 
 using namespace std;
 
-int main()
+int Day01::Main()
 {
 	ifstream file("Day01/input.txt");
 
@@ -55,6 +55,8 @@ int main()
 	cout << "Total simularity : " << totalSimilarity << endl;
 
 	file.close();
+
+	return 1;
 }
 
 int Day01::GetTotalDistance(const vector<int>& vecLeft, const vector<int>& vecRight)
